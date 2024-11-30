@@ -6,7 +6,14 @@ This project demonstrates an obstacle detector system, that uses an DHT11 to ide
 
 Based on FreeRTOS library, the project implements two tasks:
 
+1. Temperature-Humidity Reading
+    - The DHT11 collects temperature and humidity data from the enviroment.
+ 
+2. LCD Display 
+    - The data is sent to the LCD, which displays the temperature and humidity in real time.
+
 A queue is used to transfer data from one task to another.
+There is also an extra library-file called "lcdlib.h" and "lcdlib.c" which includes the functionalities of the LCD.
 
 ## Hardware Requirements and Circuit Schematic 
 
