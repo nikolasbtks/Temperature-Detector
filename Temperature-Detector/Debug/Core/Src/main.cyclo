@@ -1,0 +1,16 @@
+../Core/Src/main.c:97:5:main	1
+../Core/Src/main.c:153:6:SystemClock_Config	3
+../Core/Src/main.c:201:13:MX_I2C1_Init	2
+../Core/Src/main.c:235:13:MX_USART2_UART_Init	2
+../Core/Src/main.c:268:13:MX_GPIO_Init	1
+../Core/Src/main.c:312:6:scannerI2C	3
+../Core/Src/main.c:327:6:DWT_Init	2
+../Core/Src/main.c:339:6:usDelay	2
+../Core/Src/main.c:346:6:DataPin_Output	1
+../Core/Src/main.c:356:6:DataPin_Input	1
+../Core/Src/main.c:365:9:DHT11_Read	9
+../Core/Src/main.c:408:6:DHT11_Task	5
+../Core/Src/main.c:443:6:DataProcess_Task	3
+../Core/Src/main.c:462:6:Display_Task	1
+../Core/Src/main.c:504:6:HAL_TIM_PeriodElapsedCallback	2
+../Core/Src/main.c:521:6:Error_Handler	1
