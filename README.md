@@ -30,10 +30,6 @@ Below is a list of all the necessary components required for this project:
 | Resistors   | 100Ω (for LEDs) | 2 |
 | Power Supply   | 5V via USB | 1 |
 
-A detailed circuit schematic is also provided. This schematic show the connections between the components.
-
-photo
-
 - The LEDs are connected via 100Ω resistors to GPIO PA1 and PA4.
 - The DHT11 sensor has a 3.3V power supply, and the data pin is connected to GPIO PB0 for temperature and humidity readings.
 - The LCD 2004 has a 5V power supply, the SDA pin is connected to GPIO PB6, and the SCL pin is connected to GPIO PB7.
